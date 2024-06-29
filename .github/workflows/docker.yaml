@@ -137,12 +137,11 @@ jobs:
             fi
             
             # 将@sha256:等字符删除
-            #image_name_tag="${image_name_tag%%@*}"
-            image_name_tag="${image_name_tag}"
-            ALIYUN_REGISTRY="registry.cn-beijing.aliyuncs.com"
-            ALIYUN_NAME_SPACE="weihc-images"
+            image_name_tag="${image_name_tag%%@*}"
+            #image_name_tag="${image_name_tag}"
+            #ALIYUN_REGISTRY="registry.cn-beijing.aliyuncs.com"
+            #ALIYUN_NAME_SPACE="weihc-images"
             new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$platform_prefix$name_space_prefix$image_name_tag"
-            #new_image="registry.cn-beijing.aliyuncs.com/weihc-images/$platform_prefix$name_space_prefix$image_name_tag"
             echo "docker tag $image $new_image"
             docker tag $image $new_image
             echo "docker push $new_image"
