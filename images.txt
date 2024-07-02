@@ -1,6 +1,4 @@
-mysql:8.0.35
-mysql:5.7.44
-xuxueli/xxl-job-admin:2.2.0
 bitnami/kafka
 nginx
 nodered/node-red
+linuxserver/homeassistant
