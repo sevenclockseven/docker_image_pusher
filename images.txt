@@ -1,4 +1,3 @@
 bitnami/kafka
-nginx
 nodered/node-red
 linuxserver/homeassistant
