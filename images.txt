@@ -1,3 +1,5 @@
 bitnami/kafka
 nodered/node-red
 linuxserver/homeassistant
+homeassistant/home-assistant
+
