@@ -1,5 +1,3 @@
-bitnami/kafka
-
 nodered/node-red
 linuxserver/homeassistant
 esphome/esphome
